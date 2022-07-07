@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim Escolar</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 560px;
+            margin: auto;
+        }
+
+        caption{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 1.3em;
+            padding: 12px;
+            text-decoration: underline;
+        }
+
+        th, td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+
+        .materia, .mediaarea{
+            text-align: left;
+        }
+    </style>
+    
+</head>
+<body>
+   <table>
+       <caption>Boletim</caption>
+       <thead>
+           <th rowspan="2" scope="colgroup">Área</th>
+           <th rowspan="2" scope="colgroup">Disciplina</th>
+           <th colspan="2" scope="colgroup">Notas</th>
+           <th rowspan="2" scope="colgroup">Média</th>
+           <tr>
+               <th scope="colgroup">Nota 1</th>
+               <th scope="colgroup">Nota 2</th>
+           </tr>
+       </thead>
+
+       <tbody>
+           <tr>
+               <th rowspan="3" scope="rowgroup">Exatas</th>
+               <td class="materia">Matematica</td>
+               <td>6,0</td>
+               <td>8,0</td>
+               <td>7,0</td>
+           </tr>
+           <tr>
+                <td class="materia">Fisica</td>
+                <td>10,0</td>
+                <td>8,0</td>
+                <td>9,0</td>
+            </tr>
+            <tr>
+                <td class="materia">Quimica</td>
+                <td>10,0</td>
+                <td>10,0</td>
+                <td>10,0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="mediaarea" scope="rowgroup">Media de Exatas</th>
+                <td>8,7</td>
+            </tr>
+
+            <tr>
+                <th rowspan="3" scope="rowgroup">Humanas</th>
+                <td class="materia">Hisotria</td>
+                <td>10,0</td>
+                <td>6,0</td>
+                <td>8,0</td>
+            </tr>
+            <tr>
+                 <td class="materia">Geografia</td>
+                 <td>5,0</td>
+                 <td>10,0</td>
+                 <td>7,5</td>
+             </tr>
+             <tr>
+                 <td class="materia">Portugues</td>
+                 <td>4,0</td>
+                 <td>10,0</td>
+                 <td>7,0</td>
+             </tr>
+             <tr>
+                 <th colspan="4" class="mediaarea" scope="rowgroup">Media de Humanas</th>
+                 <td>7,5</td>
+             </tr>
+
+
+       </tbody>
+   </table>
+    
+</body>
+</html>

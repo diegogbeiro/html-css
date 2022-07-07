@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Satisfação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div>
+            <h1 id="titulo">Conhecendo nosso Cliente</h1>
+            <p id="subtitulo">Serviço de atendimento ao cliente</p>
+        </div>
+        <form action="mailto:diego@adifema.com.br" method="post" enctype="text/plain">
+            <fieldset>
+                <div class="campo">
+                    <label for="Empresa"><strong>Empresa:</strong> </label>
+                    <input type="text" name="nome" id="empresa" required>
+                </div>
+                <div class="campo">
+                    <label for="nome"><strong>Nome:</strong> </label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="datadenascimento"><strong>Data de nascimento:</strong>   </label>
+                    <input type="text" name="datadenascimento" id="datadenascimento" required>
+                </div>
+                <div class="campo">
+                    <label for="email"><strong>E-mail</strong></label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="campo">
+                    <label for="telefone"><strong>Telefone comercial:</strong></label>
+                    <input type="text" name="telefonecomercial" id="telefonecomercial" required>
+                </div>
+                <div class="campo">
+                    <label for="celular"><strong>Celular:</strong></label>
+                    <input type="text" name="celular" id="celular" required>
+                </div>
+            </fieldset><br><br>
+                <div class="perguntas">
+                    <label for=""><strong>Como você avalia os nossos serviços?</strong></label><br>
+                    <label for="">
+                        <input type="radio" name="deweb" value="exclente"> Exclente
+                    </label>
+                    <label for="">
+                        <input type="radio" name="deweb" value="bom"> Bom
+                    </label>
+                    <label for="">
+                        <input type="radio" name="deweb" value="regular"> Regular
+                    </label>
+                </div><br>
+                <div class="perguntas">
+                    <label for=""><strong>Como você avalia os serviços da área operacional?</strong></label><br>
+                    <label for="">
+                        <input type="radio" name="deweb" value="exclente"> Exclente
+                    </label>
+                    <label for="">
+                        <input type="radio" name="deweb" value="bom"> Bom
+                    </label>
+                    <label for="">
+                        <input type="radio" name="deweb" value="regular"> Regular
+                    </label>
+                </div><br>
+                <div class="perguntas">
+                    <label for=""><strong>Qual o nivel de satisfação com o atendimento adminstrativo da LOCASERV quando voce precisa?</strong></label><br>
+                    <label for="">
+                        <input type="radio" name="deweb" value="muito satisfatório"> Muito Satisfatório
+                    </label><br>
+                    <label for="">
+                        <input type="radio" name="deweb" value="satisfatorio"> Satisfatório
+                    </label><br>
+                    <label for="">
+                        <input type="radio" name="deweb" value="poucosatisfatorio"> Pouco Satisfatório
+                    </label>
+                </div><br>
+                <div class="perguntas">
+                    <label for=""><strong>Os colaboradres estão desenpenhando os serviços de forma satisfatorio</label><br>
+                    <label for="">
+                        <input type="radio" name="deweb" value="sim"> Sim
+                    </label>
+                    <label for="">
+                        <input type="radio" name="deweb" value="nao"> Não
+                    </label>
+                </div><br>
+                <div class="sugestao">
+                    <label for="">Você tem alguma critica ou sugestão a fazer para cada vez mais melhorarmos nossos servições?</label><br><br>
+                    <textarea name="experiencia" id="experiencia"  rows="4"  > </textarea>
+                </div><br><br>
+                <div id="botao"><button type="submit" class="botao">Concluido</button></div>
+        </form>
+    </main>
+</body>
+</html>

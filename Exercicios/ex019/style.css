@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body {
+    background-color: #E0853A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #3B230F;
+    text-align: center;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #7A4920;
+    color: #E0853A;
+
+}
+
+
+h2 {
+    color: #7A4920;
+}
+.basico {
+    color: blue;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+.intermediario {
+    color: red;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.avançado{
+    color: rgb(2, 255, 2);
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+.destaque{
+    background-color: greenyellow;
+    text-decoration: underline;
+}
+
+div{
+    font-size: 3em;
+    color: red;
+    text-align: center;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    text-decoration: underline;
+}
+div:hover{
+    background-color: yellowgreen;
+    color: blue;
+}
